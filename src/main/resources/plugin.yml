@@ -1,0 +1,16 @@
+name: HotCompile
+api: [1.0.9]
+author: MagicLu550
+website: noyark.net
+main: net.noyark.www.hotcompile.HotCompile
+version: 1.0.0
+description: A Simple HotCompile Plugin
+permissions:
+  HotCompile.hc:
+    description: 插件主命令
+    default: op
+commands:
+  hc:
+    usage: "/hc help"
+    description: "HotCompile的主命令"
+    permission: HotCompile.hc
